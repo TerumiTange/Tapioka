@@ -58,6 +58,7 @@
     <Compile Include="Utility\CountUpTimer.cs" />
     <Compile Include="Utility\Motion.cs" />
     <Compile Include="Utility\Range.cs" />
+    <Compile Include="Utility\Score.cs" />
     <Compile Include="Utility\Timer.cs" />
   </ItemGroup>
   <ItemGroup>
