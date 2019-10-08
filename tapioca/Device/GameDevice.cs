@@ -45,7 +45,6 @@ namespace tapioca.Device
             {
                 instance = new GameDevice(content, graphics);
             }
-            Console.WriteLine("aaa");
 
             return instance;
         }

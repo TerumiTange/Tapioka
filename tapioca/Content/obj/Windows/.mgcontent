@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/K018A1471/2年/ゲーム制作/Tapioca/tapioca/Content/dami4.png</File>
+    <File>C:/K018A1471/2年/ゲーム制作/Tapioca/tapioca/Content/dami.png</File>
+    <File>C:/K018A1471/2年/ゲーム制作/Tapioca/tapioca/Content/dami2.png</File>
+    <File>C:/K018A1471/2年/ゲーム制作/Tapioca/tapioca/Content/dami3.png</File>
+  </SourceFiles>
+</SourceFileCollection>

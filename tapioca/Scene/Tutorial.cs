@@ -1,22 +1,21 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using tapioca.Device;
 
 namespace tapioca.Scene
 {
-    class Title : IScene
+    class Tutorial : IScene
     {
+        bool isEndFlag;
         private Sound sound;
 
-        private bool isEndFlag;
-        public Title()
+        public Tutorial()
         {
-            isEndFlag = false;
             var gameDevice = GameDevice.Instance();
             sound = gameDevice.GetSound();
         }
@@ -25,13 +24,14 @@ namespace tapioca.Scene
         {
             isEndFlag = false;
         }
+
         public void Draw(Renderer renderer)
         {
             renderer.Begin();
-            renderer.DrawTexture("dami", new Vector2(100, 100));
+            renderer.DrawTexture("dami2",new Vector2(100,100));
             renderer.End();
         }
-        
+
         public bool IsEnd()
         {
             return isEndFlag;
@@ -39,9 +39,8 @@ namespace tapioca.Scene
 
         public Scene Next()
         {
-            return Scene.Tutorial;
+            return Scene.GameMain;
         }
-
         public void Shutdown()
         {
             sound.StopBGM();

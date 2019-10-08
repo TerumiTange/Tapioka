@@ -46,3 +46,7 @@ C:\K018A1471\2年\ゲーム制作\Tapioca\tapioca\obj\x86\Debug\tapioca.csproj.C
 C:\K018A1471\2年\ゲーム制作\Tapioca\tapioca\obj\x86\Debug\tapioca.csproj.CopyComplete
 C:\K018A1471\2年\ゲーム制作\Tapioca\tapioca\obj\x86\Debug\tapioca.exe
 C:\K018A1471\2年\ゲーム制作\Tapioca\tapioca\obj\x86\Debug\tapioca.pdb
+C:\K018A1471\2年\ゲーム制作\Tapioca\tapioca\bin\Windows\x86\Debug\Content\dami.xnb
+C:\K018A1471\2年\ゲーム制作\Tapioca\tapioca\bin\Windows\x86\Debug\Content\dami2.xnb
+C:\K018A1471\2年\ゲーム制作\Tapioca\tapioca\bin\Windows\x86\Debug\Content\dami3.xnb
+C:\K018A1471\2年\ゲーム制作\Tapioca\tapioca\bin\Windows\x86\Debug\Content\dami4.xnb
