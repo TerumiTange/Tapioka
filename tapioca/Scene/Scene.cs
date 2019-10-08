@@ -12,6 +12,7 @@ namespace tapioca.Scene
         Tutorial,
         GameMain,
         Ending,
+        Pause,
 
     }
 }

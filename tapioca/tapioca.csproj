@@ -47,6 +47,7 @@
     <Compile Include="Device\Renderer.cs" />
     <Compile Include="Scene\Ending.cs" />
     <Compile Include="Scene\IScene.cs" />
+    <Compile Include="Scene\Pause.cs" />
     <Compile Include="Scene\Scene.cs" />
     <Compile Include="Scene\SceneManager.cs" />
     <Compile Include="Device\Sound.cs" />

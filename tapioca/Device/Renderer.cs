@@ -21,6 +21,7 @@ namespace tapioca.Device
         private GraphicsDevice graphicsDevice; //グラフィック機器
         private SpriteBatch spriteBatch; //スプライト一括描画用オブジェクト
         private RenderTarget2D target2D; //2D用レンダーターゲット
+        private SpriteFont font;// スプライトフォント
 
         //複数画像管理用変数の宣言と生成
         private Dictionary<string, Texture2D> textures = new Dictionary<string, Texture2D>();
@@ -36,6 +37,8 @@ namespace tapioca.Device
             contentManager = content;
             graphicsDevice = graphics;
             spriteBatch = new SpriteBatch(graphicsDevice);
+            // フォントのロード
+            font = content.Load<SpriteFont>("Font/font");
         }
 
         #region 画像の読み込み
@@ -442,5 +445,18 @@ namespace tapioca.Device
                 depth);
         }
         #endregion レンダーターゲット関連
+        public void DrawString(string str, Vector2 position, Color color, Vector2 scale)
+        {
+            spriteBatch.DrawString(
+                font,
+                str,
+                position,
+                color,
+                0.0f,
+                Vector2.Zero,
+                scale,
+                SpriteEffects.None,
+                0.0f);
+        }
     }
 }
