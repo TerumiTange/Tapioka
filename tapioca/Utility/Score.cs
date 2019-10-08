@@ -10,7 +10,7 @@ namespace tapioca.Utility
     class Score
     {
         public int score;
-        public int upScore;
+        
         public Score()
         {
 
@@ -28,7 +28,12 @@ namespace tapioca.Utility
 
         public void UpScore(int upScore)
         {
+            score += upScore;
+        }
 
+        public void DownScore(int downScore)
+        {
+            score -= downScore;
         }
     }
 }
