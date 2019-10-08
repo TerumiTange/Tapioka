@@ -4,9 +4,17 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
+<<<<<<< HEAD
     <File>C:/Tapioca/tapioca/Content/number.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
   </DestFiles>
+=======
+    <File>C:/K018A1471/2年/ゲーム制作/Tapioca/tapioca/Content/dami4.png</File>
+    <File>C:/K018A1471/2年/ゲーム制作/Tapioca/tapioca/Content/dami.png</File>
+    <File>C:/K018A1471/2年/ゲーム制作/Tapioca/tapioca/Content/dami2.png</File>
+    <File>C:/K018A1471/2年/ゲーム制作/Tapioca/tapioca/Content/dami3.png</File>
+  </SourceFiles>
+>>>>>>> origin/Aluse
 </SourceFileCollection>

@@ -17,6 +17,8 @@ namespace tapioca
         private GameDevice gameDevice;
         private Renderer renderer;
 
+        private SceneManager sceneManager;
+
         public Game1()
         {
             //グラフィックスデバイス管理者の実体生成
@@ -41,6 +43,18 @@ namespace tapioca
             // TODO: Add your initialization logic here
             gameDevice = GameDevice.Instance(Content, GraphicsDevice);
 
+            sceneManager = new SceneManager();
+            IScene addScene = new Title();
+            sceneManager.Add(Scene.Scene.Title, addScene);
+            IScene addScene2 = new Tutorial();
+            sceneManager.Add(Scene.Scene.Tutorial, addScene2);
+            IScene addScene3 = new GameMain();
+            sceneManager.Add(Scene.Scene.GameMain, addScene3);
+            IScene addScene4 = new Ending();
+            sceneManager.Add(Scene.Scene.Ending, addScene4);
+            sceneManager.Change(Scene.Scene.Title);
+
+
             base.Initialize();
         }
 
@@ -52,8 +66,15 @@ namespace tapioca
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             renderer = gameDevice.GetRenderer();
+<<<<<<< HEAD
             renderer.LoadContent("number");
+=======
+>>>>>>> origin/Aluse
 
+            renderer.LoadContent("dami");
+            renderer.LoadContent("dami2");
+            renderer.LoadContent("dami3");
+            renderer.LoadContent("dami4");
             // TODO: use this.Content to load your game content here
         }
 
@@ -79,6 +100,8 @@ namespace tapioca
             // TODO: Add your update logic here
             gameDevice.Update(gameTime);
 
+            sceneManager.Update(gameTime);
+
             base.Update(gameTime);
         }
 
@@ -91,6 +114,9 @@ namespace tapioca
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+
+            //シーン管理者描画
+            sceneManager.Draw(renderer);
 
             base.Draw(gameTime);
         }

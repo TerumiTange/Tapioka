@@ -9,7 +9,9 @@ namespace tapioca.Scene
     enum Scene
     {
         Title,
+        Tutorial,
         GameMain,
+        Ending,
 
     }
 }
