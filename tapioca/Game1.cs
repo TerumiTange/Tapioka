@@ -52,7 +52,7 @@ namespace tapioca
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             renderer = gameDevice.GetRenderer();
-            //
+            renderer.LoadContent("number");
 
             // TODO: use this.Content to load your game content here
         }

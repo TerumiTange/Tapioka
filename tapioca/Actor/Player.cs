@@ -31,7 +31,9 @@ namespace tapioca.Actor
 
         public void Draw(Renderer renderer)
         {
-
+            renderer.Begin();
+            renderer.DrawNumber("number", new Vector2(100, 100), tapiocaCount);
+            renderer.End();
         }
 
         public void Update(GameTime gameTime)

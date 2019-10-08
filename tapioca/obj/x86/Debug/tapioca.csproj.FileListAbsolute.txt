@@ -21,3 +21,4 @@ C:\tapioca\tapioca\obj\x86\Debug\tapioca.csproj.CoreCompileInputs.cache
 C:\tapioca\tapioca\obj\x86\Debug\tapioca.csproj.CopyComplete
 C:\tapioca\tapioca\obj\x86\Debug\tapioca.exe
 C:\tapioca\tapioca\obj\x86\Debug\tapioca.pdb
+C:\Tapioca\tapioca\bin\Windows\x86\Debug\Content\number.xnb
